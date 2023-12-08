@@ -1,0 +1,32 @@
+header
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $header-primary-color;   
+
+    .logo
+    {
+        font-size: 25px;
+        position: relative;
+        right: 10%;
+        color: $header-primary-fontcolor;
+        text-decoration: none;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    li 
+    {
+        list-style-type: none;
+    }
+
+}
+
+
+
+

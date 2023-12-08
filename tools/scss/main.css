@@ -1,0 +1,252 @@
+@charset "UTF-8";
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 46, 253, 0.6784313725);
+}
+
+header .logo {
+  font-size: 25px;
+  position: relative;
+  right: 10%;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+header li {
+  list-style-type: none;
+}
+
+
+/*Variáveis*/
+:root {
+  --button-primary-color: #1e03b9;
+  --font-primary-color: #fff;
+  --hover-button-color: #2d2bcc;
+}
+
+.mensagem {
+  position: absolute;
+  top: 40%;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  top: 40%;
+  height: 50rem;
+  max-width: 20rem;
+}
+.card .form-group form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card .form-group input {
+  margin-top: 10px;
+  width: 70%;
+}
+.card .form-group button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.card .form-group .input-group-text {
+  width: 50%;
+}
+
+#botoes, #saida, #wrap {
+  text-align: center;
+  padding: 1%;
+}
+
+.info #saida {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info #saida input {
+  height: 20px;
+  width: 20px;
+}
+.info #saida table {
+  border-radius: 5px;
+  color: #fff;
+  width: 50%;
+}
+.info #saida td {
+  border: 1px solid white;
+}
+.info .tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info .tools form {
+  width: 50%;
+}
+.info .tools .badge {
+  font-size: 15px;
+}
+.info .tools .badges-a {
+  margin-top: 10px;
+  position: relative;
+  top: 20%;
+  right: 18%;
+}
+.info .tools .badges-b {
+  position: absolute;
+  top: 20%;
+  left: 41%;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 46%;
+  max-width: 50%;
+}
+
+/*Variáveis*/
+:root {
+  --main-bg-color: rgb(245, 235, 235);
+  --font-primary-color: #fff;
+}
+
+/*Formatação Principal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+.title-c {
+  margin-top: 1rem;
+  font-size: 35px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(#000000, #000000, #000000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.navigation {
+  position: fixed;
+  width: 60px;
+  height: 100%;
+  background-color: #333;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.navigation.active, .navigation:hover {
+  width: 300px;
+}
+.navigation ul {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navigation li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+.navigation li:hover {
+  background-color: rgb(70, 68, 68);
+}
+.navigation a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.navigation .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 65px;
+  text-align: center;
+}
+.navigation .icon .bx {
+  font-size: 24px;
+}
+.navigation .title {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  .navigation {
+    left: -60px;
+  }
+  .navigation.active {
+    left: 0;
+    width: 100%;
+  }
+}
+
+.toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 57px;
+  background: #333;
+  cursor: pointer;
+}
+.toggle.active {
+  background-color: rgb(70, 68, 68);
+}
+.toggle::before {
+  content: "\f0c9";
+  position: absolute;
+  font-family: fontAwesome;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+.toggle.active::before {
+  content: "\f00d";
+}
+
+h2 .welcome {
+  padding: 5rem;
+}
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;1,400&display=swap");
+}/*# sourceMappingURL=main.css.map */

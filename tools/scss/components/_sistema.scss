@@ -1,0 +1,130 @@
+.mensagem
+{
+    position: absolute;
+    top: 40%;
+    padding: 0;
+}
+
+
+.card
+{
+    display: flex;
+    top: 40%;
+    height: 50rem;
+    max-width: 20rem;
+
+
+    .form-group
+    {
+        form 
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        input
+        { 
+            
+            margin-top: 10px;  
+            width: 70%;  
+        }
+
+
+        button 
+        {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .input-group-text
+        {
+            width: 50%;
+        }
+    }
+}
+
+
+#botoes, #saida, #wrap
+{
+    text-align: center;
+    padding: 1%;   
+}
+
+.info
+{
+
+    #saida
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input
+        {
+            height: 20px;
+            width: 20px;
+        }
+
+        table
+        {
+            border-radius: 5px;
+            // background: linear-gradient(100deg, var(--tb-bg-color), var(--tb-sel-color));
+            color: $font-primary-color;
+            width: 50%;
+        }
+        
+        td
+        {
+            border: 1px solid white;
+        }
+    }
+
+    .tools
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+
+
+        form 
+        {
+            width: 50%;
+        }
+
+        .badge
+        {
+            font-size: 15px;
+        }
+
+        .badges-a
+        {
+            margin-top: 10px;
+            position: relative;
+            top: 20%;
+            right: 18%;
+        }
+
+        .badges-b
+        {
+            position: relative;
+            top: 20%;
+            left: 41%;
+        }
+       
+    }
+}
+
+
+.pages
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 46%;
+    max-width: 50%;
+}
